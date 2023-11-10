@@ -172,6 +172,9 @@ def main(
 ):
     """Create a project from a Cookiecutter project template (TEMPLATE).
 
+    EXTRA_CONTEXT should contain items of the form key=value,
+    and the value is always treated as a string.
+
     Cookiecutter is free and open source software, developed and managed by
     volunteers. If you would like to help out or fund the project, please get
     in touch at https://github.com/cookiecutter/cookiecutter.
